@@ -579,3 +579,1016 @@ Finished building: default.size.stdout
  
 Finished building: Text001.list
  
+10:36:22 **** Build of configuration Debug for project TEXT002-Timer ****
+make -j24 all 
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o"
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f411retx.d" -MT"Core/Startup/startup_stm32f411retx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32f411retx.o" "../Core/Startup/startup_stm32f411retx.s"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f4xx.d" -MT"Core/Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f4xx.o"
+arm-none-eabi-gcc -o "TEXT002-Timer.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\TEXT002-Timer\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TEXT002-Timer.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TEXT002-Timer.elf
+ 
+arm-none-eabi-size  TEXT002-Timer.elf 
+arm-none-eabi-objdump -h -S TEXT002-Timer.elf  > "TEXT002-Timer.list"
+   text	   data	    bss	    dec	    hex	filename
+   9976	     20	   1716	  11712	   2dc0	TEXT002-Timer.elf
+Finished building: default.size.stdout
+ 
+Finished building: TEXT002-Timer.list
+ 
+10:36:52 **** Incremental Build of configuration Debug for project TEXT002-Timer ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "TEXT002-Timer.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\TEXT002-Timer\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TEXT002-Timer.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TEXT002-Timer.elf
+ 
+arm-none-eabi-size  TEXT002-Timer.elf 
+arm-none-eabi-objdump -h -S TEXT002-Timer.elf  > "TEXT002-Timer.list"
+   text	   data	    bss	    dec	    hex	filename
+  10036	     20	   1716	  11772	   2dfc	TEXT002-Timer.elf
+Finished building: default.size.stdout
+ 
+Finished building: TEXT002-Timer.list
+ 
+10:42:18 **** Incremental Build of configuration Debug for project TEXT002-Timer ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "TEXT002-Timer.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\TEXT002-Timer\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TEXT002-Timer.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TEXT002-Timer.elf
+ 
+arm-none-eabi-size  TEXT002-Timer.elf 
+arm-none-eabi-objdump -h -S TEXT002-Timer.elf  > "TEXT002-Timer.list"
+   text	   data	    bss	    dec	    hex	filename
+  10244	     20	   1716	  11980	   2ecc	TEXT002-Timer.elf
+Finished building: default.size.stdout
+ 
+Finished building: TEXT002-Timer.list
+ 
+11:33:23 **** Incremental Build of configuration Debug for project TEXT002-Timer ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "TEXT002-Timer.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\TEXT002-Timer\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TEXT002-Timer.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TEXT002-Timer.elf
+ 
+arm-none-eabi-size  TEXT002-Timer.elf 
+arm-none-eabi-objdump -h -S TEXT002-Timer.elf  > "TEXT002-Timer.list"
+   text	   data	    bss	    dec	    hex	filename
+  10360	     20	   1716	  12096	   2f40	TEXT002-Timer.elf
+Finished building: default.size.stdout
+ 
+Finished building: TEXT002-Timer.list
+ 
+11:45:22 **** Incremental Build of configuration Debug for project TEXT002-Timer ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc -o "TEXT002-Timer.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\TEXT002-Timer\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TEXT002-Timer.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TEXT002-Timer.elf
+ 
+arm-none-eabi-size  TEXT002-Timer.elf 
+arm-none-eabi-objdump -h -S TEXT002-Timer.elf  > "TEXT002-Timer.list"
+   text	   data	    bss	    dec	    hex	filename
+  10448	     20	   1716	  12184	   2f98	TEXT002-Timer.elf
+Finished building: default.size.stdout
+ 
+Finished building: TEXT002-Timer.list
+ 
+11:47:07 **** Incremental Build of configuration Debug for project TEXT002-Timer ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "TEXT002-Timer.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\TEXT002-Timer\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TEXT002-Timer.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TEXT002-Timer.elf
+ 
+arm-none-eabi-size  TEXT002-Timer.elf 
+arm-none-eabi-objdump -h -S TEXT002-Timer.elf  > "TEXT002-Timer.list"
+   text	   data	    bss	    dec	    hex	filename
+  10460	     20	   1716	  12196	   2fa4	TEXT002-Timer.elf
+Finished building: default.size.stdout
+ 
+Finished building: TEXT002-Timer.list
+ 
+11:52:18 **** Incremental Build of configuration Debug for project TEXT002-Timer ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "TEXT002-Timer.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\TEXT002-Timer\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TEXT002-Timer.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TEXT002-Timer.elf
+ 
+arm-none-eabi-size  TEXT002-Timer.elf 
+arm-none-eabi-objdump -h -S TEXT002-Timer.elf  > "TEXT002-Timer.list"
+   text	   data	    bss	    dec	    hex	filename
+  10460	     20	   1716	  12196	   2fa4	TEXT002-Timer.elf
+Finished building: default.size.stdout
+ 
+Finished building: TEXT002-Timer.list
+ 
+11:53:22 **** Incremental Build of configuration Debug for project TEXT002-Timer ****
+make -j24 all 
+arm-none-eabi-size  TEXT002-Timer.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10460	     20	   1716	  12196	   2fa4	TEXT002-Timer.elf
+Finished building: default.size.stdout
+ 
+11:54:09 **** Incremental Build of configuration Debug for project TEXT002-Timer ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "TEXT002-Timer.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\TEXT002-Timer\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TEXT002-Timer.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TEXT002-Timer.elf
+ 
+arm-none-eabi-size  TEXT002-Timer.elf 
+arm-none-eabi-objdump -h -S TEXT002-Timer.elf  > "TEXT002-Timer.list"
+   text	   data	    bss	    dec	    hex	filename
+  10408	     20	   1716	  12144	   2f70	TEXT002-Timer.elf
+Finished building: default.size.stdout
+ 
+Finished building: TEXT002-Timer.list
+ 
+11:55:37 **** Incremental Build of configuration Debug for project TEXT002-Timer ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "TEXT002-Timer.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\TEXT002-Timer\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TEXT002-Timer.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TEXT002-Timer.elf
+ 
+arm-none-eabi-size  TEXT002-Timer.elf 
+arm-none-eabi-objdump -h -S TEXT002-Timer.elf  > "TEXT002-Timer.list"
+   text	   data	    bss	    dec	    hex	filename
+  10460	     20	   1716	  12196	   2fa4	TEXT002-Timer.elf
+Finished building: default.size.stdout
+ 
+Finished building: TEXT002-Timer.list
+ 
+12:42:43 **** Incremental Build of configuration Debug for project TEXT002-Timer ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+../Core/Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/main.c:70:26: error: 'htmi2' undeclared (first use in this function); did you mean 'htim2'?
+   70 |         else if(htim == &htmi2)
+      |                          ^~~~~
+      |                          htim2
+../Core/Src/main.c:70:26: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j24 all" terminated with exit code 2. Build might be incomplete.
+12:43:16 **** Incremental Build of configuration Debug for project TEXT002-Timer ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "TEXT002-Timer.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\TEXT002-Timer\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TEXT002-Timer.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TEXT002-Timer.elf
+ 
+arm-none-eabi-size  TEXT002-Timer.elf 
+arm-none-eabi-objdump -h -S TEXT002-Timer.elf  > "TEXT002-Timer.list"
+   text	   data	    bss	    dec	    hex	filename
+  10748	     20	   1788	  12556	   310c	TEXT002-Timer.elf
+Finished building: default.size.stdout
+ 
+Finished building: TEXT002-Timer.list
+ 
+12:44:03 **** Incremental Build of configuration Debug for project TEXT002-Timer ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "TEXT002-Timer.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\TEXT002-Timer\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TEXT002-Timer.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TEXT002-Timer.elf
+ 
+arm-none-eabi-size  TEXT002-Timer.elf 
+arm-none-eabi-objdump -h -S TEXT002-Timer.elf  > "TEXT002-Timer.list"
+   text	   data	    bss	    dec	    hex	filename
+  10748	     20	   1788	  12556	   310c	TEXT002-Timer.elf
+Finished building: default.size.stdout
+ 
+Finished building: TEXT002-Timer.list
+ 
+12:44:35 **** Incremental Build of configuration Debug for project TEXT002-Timer ****
+make -j24 all 
+arm-none-eabi-size  TEXT002-Timer.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10748	     20	   1788	  12556	   310c	TEXT002-Timer.elf
+Finished building: default.size.stdout
+ 
+12:45:52 **** Incremental Build of configuration Debug for project TEXT002-Timer ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "TEXT002-Timer.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\TEXT002-Timer\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TEXT002-Timer.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TEXT002-Timer.elf
+ 
+arm-none-eabi-size  TEXT002-Timer.elf 
+arm-none-eabi-objdump -h -S TEXT002-Timer.elf  > "TEXT002-Timer.list"
+   text	   data	    bss	    dec	    hex	filename
+  10748	     20	   1788	  12556	   310c	TEXT002-Timer.elf
+Finished building: default.size.stdout
+ 
+Finished building: TEXT002-Timer.list
+ 
+15:24:04 **** Build of configuration Debug for project TEST003_UART ****
+make -j24 all 
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o"
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f411retx.d" -MT"Core/Startup/startup_stm32f411retx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32f411retx.o" "../Core/Startup/startup_stm32f411retx.s"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f4xx.d" -MT"Core/Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f4xx.o"
+arm-none-eabi-gcc -o "TEST003_UART.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\TEST003\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TEST003_UART.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TEST003_UART.elf
+ 
+arm-none-eabi-size  TEST003_UART.elf 
+arm-none-eabi-objdump -h -S TEST003_UART.elf  > "TEST003_UART.list"
+   text	   data	    bss	    dec	    hex	filename
+   7644	     20	   1644	   9308	   245c	TEST003_UART.elf
+Finished building: default.size.stdout
+ 
+Finished building: TEST003_UART.list
+ 
+15:24:11 **** Incremental Build of configuration Debug for project TEST003_UART ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function '__io_putchar':
+../Core/Src/main.c:62:36: warning: passing argument 2 of 'HAL_UART_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+   62 |         HAL_UART_Transmit(&huart2, &ch, 1, 10); //{type, buffer, Î≥¥ÎÇº?ç∞?ù¥?Ñ∞ byte ?àò,}
+      |                                    ^~~
+      |                                    |
+      |                                    int *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'int *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:104:11: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  104 |           printf("UART Test ...\r\n");
+      |           ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:104:11: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  104 |           printf("UART Test ...\r\n");
+      |           ^~~~~~
+../Core/Src/main.c:104:11: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "TEST003_UART.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\TEST003\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TEST003_UART.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TEST003_UART.elf
+ 
+arm-none-eabi-size  TEST003_UART.elf 
+arm-none-eabi-objdump -h -S TEST003_UART.elf  > "TEST003_UART.list"
+   text	   data	    bss	    dec	    hex	filename
+  10992	    112	   1976	  13080	   3318	TEST003_UART.elf
+Finished building: default.size.stdout
+ 
+Finished building: TEST003_UART.list
+ 
+15:33:03 **** Incremental Build of configuration Debug for project TEST003_UART ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function '__io_putchar':
+../Core/Src/main.c:62:36: warning: passing argument 2 of 'HAL_UART_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+   62 |         HAL_UART_Transmit(&huart2, &ch, 1, 10); //{type, buffer, Î≥¥ÎÇº?ç∞?ù¥?Ñ∞ byte ?àò,}
+      |                                    ^~~
+      |                                    |
+      |                                    int *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'int *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:109:11: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  109 |           printf("UART Test ...\r\n");
+      |           ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:109:11: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  109 |           printf("UART Test ...\r\n");
+      |           ^~~~~~
+../Core/Src/main.c:109:11: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "TEST003_UART.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\TEST003\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TEST003_UART.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TEST003_UART.elf
+ 
+arm-none-eabi-size  TEST003_UART.elf 
+arm-none-eabi-objdump -h -S TEST003_UART.elf  > "TEST003_UART.list"
+   text	   data	    bss	    dec	    hex	filename
+  11076	    112	   1976	  13164	   336c	TEST003_UART.elf
+Finished building: default.size.stdout
+ 
+Finished building: TEST003_UART.list
+ 
+15:35:05 **** Incremental Build of configuration Debug for project TEST003_UART ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function '__io_putchar':
+../Core/Src/main.c:62:36: warning: passing argument 2 of 'HAL_UART_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+   62 |         HAL_UART_Transmit(&huart2, &ch, 1, 10); //{type, buffer, Î≥¥ÎÇº?ç∞?ù¥?Ñ∞ byte ?àò,}
+      |                                    ^~~
+      |                                    |
+      |                                    int *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'int *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:11: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  110 |           printf("UART Test ...%4d\r\n", count++);
+      |           ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:110:11: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  110 |           printf("UART Test ...%4d\r\n", count++);
+      |           ^~~~~~
+../Core/Src/main.c:110:11: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:111:11: error: unknown type name 'HAL'
+  111 |           HAL Delay(500);
+      |           ^~~
+../Core/Src/main.c:111:21: error: expected declaration specifiers or '...' before numeric constant
+  111 |           HAL Delay(500);
+      |                     ^~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j24 all" terminated with exit code 2. Build might be incomplete.
+15:35:47 **** Incremental Build of configuration Debug for project TEST003_UART ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function '__io_putchar':
+../Core/Src/main.c:62:36: warning: passing argument 2 of 'HAL_UART_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+   62 |         HAL_UART_Transmit(&huart2, &ch, 1, 10); //{type, buffer, Î≥¥ÎÇº?ç∞?ù¥?Ñ∞ byte ?àò,}
+      |                                    ^~~
+      |                                    |
+      |                                    int *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'int *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:11: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  110 |           printf("UART Test ...%4d\r\n", count++);
+      |           ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:110:11: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  110 |           printf("UART Test ...%4d\r\n", count++);
+      |           ^~~~~~
+../Core/Src/main.c:110:11: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "TEST003_UART.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\TEST003\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TEST003_UART.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TEST003_UART.elf
+ 
+arm-none-eabi-size  TEST003_UART.elf 
+arm-none-eabi-objdump -h -S TEST003_UART.elf  > "TEST003_UART.list"
+   text	   data	    bss	    dec	    hex	filename
+  12692	    112	   1976	  14780	   39bc	TEST003_UART.elf
+Finished building: default.size.stdout
+ 
+Finished building: TEST003_UART.list
+ 
+15:37:21 **** Incremental Build of configuration Debug for project TEST003_UART ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function '__io_putchar':
+../Core/Src/main.c:62:36: warning: passing argument 2 of 'HAL_UART_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+   62 |         HAL_UART_Transmit(&huart2, &ch, 1, 10); //{type, buffer, Î≥¥ÎÇº?ç∞?ù¥?Ñ∞ byte ?àò,}
+      |                                    ^~~
+      |                                    |
+      |                                    int *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'int *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:11: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  110 |           printf("UART Test ...%6.2f\r\n", count++);
+      |           ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:110:11: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  110 |           printf("UART Test ...%6.2f\r\n", count++);
+      |           ^~~~~~
+../Core/Src/main.c:110:11: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:110:36: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+  110 |           printf("UART Test ...%6.2f\r\n", count++);
+      |                                ~~~~^       ~~~~~~~
+      |                                    |            |
+      |                                    double       int
+      |                                %6.2d
+arm-none-eabi-gcc -o "TEST003_UART.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\TEST003\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TEST003_UART.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TEST003_UART.elf
+ 
+arm-none-eabi-size  TEST003_UART.elf 
+arm-none-eabi-objdump -h -S TEST003_UART.elf  > "TEST003_UART.list"
+   text	   data	    bss	    dec	    hex	filename
+  12696	    112	   1976	  14784	   39c0	TEST003_UART.elf
+Finished building: default.size.stdout
+ 
+Finished building: TEST003_UART.list
+ 
+15:37:54 **** Incremental Build of configuration Debug for project TEST003_UART ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function '__io_putchar':
+../Core/Src/main.c:62:36: warning: passing argument 2 of 'HAL_UART_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+   62 |         HAL_UART_Transmit(&huart2, &ch, 1, 10); //{type, buffer, Î≥¥ÎÇº?ç∞?ù¥?Ñ∞ byte ?àò,}
+      |                                    ^~~
+      |                                    |
+      |                                    int *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'int *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:11: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  110 |           printf("UART Test ...%6.2f\r\n", count++);
+      |           ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:110:11: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  110 |           printf("UART Test ...%6.2f\r\n", count++);
+      |           ^~~~~~
+../Core/Src/main.c:110:11: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "TEST003_UART.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\TEST003\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TEST003_UART.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TEST003_UART.elf
+ 
+arm-none-eabi-size  TEST003_UART.elf 
+arm-none-eabi-objdump -h -S TEST003_UART.elf  > "TEST003_UART.list"
+   text	   data	    bss	    dec	    hex	filename
+  13616	    112	   1976	  15704	   3d58	TEST003_UART.elf
+Finished building: default.size.stdout
+ 
+Finished building: TEST003_UART.list
+ 
+15:38:25 **** Incremental Build of configuration Debug for project TEST003_UART ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function '__io_putchar':
+../Core/Src/main.c:62:36: warning: passing argument 2 of 'HAL_UART_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+   62 |         HAL_UART_Transmit(&huart2, &ch, 1, 10); //{type, buffer, Î≥¥ÎÇº?ç∞?ù¥?Ñ∞ byte ?àò,}
+      |                                    ^~~
+      |                                    |
+      |                                    int *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'int *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:110:11: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  110 |           printf("UART Test ...%6.2lf \r\n", count++);
+      |           ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:110:11: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  110 |           printf("UART Test ...%6.2lf \r\n", count++);
+      |           ^~~~~~
+../Core/Src/main.c:110:11: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "TEST003_UART.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\TEST003\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TEST003_UART.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TEST003_UART.elf
+ 
+arm-none-eabi-size  TEST003_UART.elf 
+arm-none-eabi-objdump -h -S TEST003_UART.elf  > "TEST003_UART.list"
+   text	   data	    bss	    dec	    hex	filename
+  13616	    112	   1976	  15704	   3d58	TEST003_UART.elf
+Finished building: default.size.stdout
+ 
+Finished building: TEST003_UART.list
+ 
+15:39:39 **** Incremental Build of configuration Debug for project TEST003_UART ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function '__io_putchar':
+../Core/Src/main.c:62:36: warning: passing argument 2 of 'HAL_UART_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+   62 |         HAL_UART_Transmit(&huart2, &ch, 1, 10); //{type, buffer, Î≥¥ÎÇº?ç∞?ù¥?Ñ∞ byte ?àò,}
+      |                                    ^~~
+      |                                    |
+      |                                    int *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'int *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:111:11: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  111 |           printf("UART Test ...%6.2f \r\n", a);
+      |           ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:111:11: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  111 |           printf("UART Test ...%6.2f \r\n", a);
+      |           ^~~~~~
+../Core/Src/main.c:111:11: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "TEST003_UART.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\TEST003\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TEST003_UART.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TEST003_UART.elf
+ 
+arm-none-eabi-size  TEST003_UART.elf 
+arm-none-eabi-objdump -h -S TEST003_UART.elf  > "TEST003_UART.list"
+   text	   data	    bss	    dec	    hex	filename
+  14680	    112	   1976	  16768	   4180	TEST003_UART.elf
+Finished building: default.size.stdout
+ 
+Finished building: TEST003_UART.list
+ 
+15:44:12 **** Incremental Build of configuration Debug for project TEST003_UART ****
+make -j24 all 
+arm-none-eabi-gcc -o "TEST003_UART.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\TEST003\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TEST003_UART.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TEST003_UART.elf
+ 
+arm-none-eabi-size  TEST003_UART.elf 
+arm-none-eabi-objdump -h -S TEST003_UART.elf  > "TEST003_UART.list"
+   text	   data	    bss	    dec	    hex	filename
+  31192	    476	   1980	  33648	   8370	TEST003_UART.elf
+Finished building: default.size.stdout
+ 
+Finished building: TEST003_UART.list
+ 
+16:11:30 **** Incremental Build of configuration Debug for project TEST003_UART ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function '__io_putchar':
+../Core/Src/main.c:62:36: warning: passing argument 2 of 'HAL_UART_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+   62 |         HAL_UART_Transmit(&huart2, &ch, 1, 10); //{type, buffer, Î≥¥ÎÇº?ç∞?ù¥?Ñ∞ byte ?àò,}
+      |                                    ^~~
+      |                                    |
+      |                                    int *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'int *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'StandBy':
+../Core/Src/main.c:67:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   67 |         printf()
+      |         ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:67:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   67 |         printf()
+      |         ^~~~~~
+../Core/Src/main.c:67:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:67:9: error: too few arguments to function 'printf'
+../Core/Src/main.c:67:17: error: expected ';' before 'while'
+   67 |         printf()
+      |                 ^
+      |                 ;
+   68 |         while(HAL_GPIO_ReadPin(B1_GPIO_Port, B1_Pin));
+      |         ~~~~~    
+../Core/Src/main.c: In function 'ProgramStart':
+../Core/Src/main.c:72:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   72 |         printf("\033[2J\033[y;xH");     //ESC = 033, y =0, x =0?úÑÏπ?,
+      |         ^~~~~~
+../Core/Src/main.c:72:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:119:11: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  119 |           printf("UART Test ...%6.2f \r\n", a);
+      |           ^~~~~~
+../Core/Src/main.c:119:11: note: include '<stdio.h>' or provide a declaration of 'printf'
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j24 all" terminated with exit code 2. Build might be incomplete.
+16:12:02 **** Incremental Build of configuration Debug for project TEST003_UART ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function '__io_putchar':
+../Core/Src/main.c:62:36: warning: passing argument 2 of 'HAL_UART_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+   62 |         HAL_UART_Transmit(&huart2, &ch, 1, 10); //{type, buffer, Î≥¥ÎÇº?ç∞?ù¥?Ñ∞ byte ?àò,}
+      |                                    ^~~
+      |                                    |
+      |                                    int *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'int *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'StandBy':
+../Core/Src/main.c:67:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   67 |         printf()
+      |         ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:67:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   67 |         printf()
+      |         ^~~~~~
+../Core/Src/main.c:67:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:67:9: error: too few arguments to function 'printf'
+../Core/Src/main.c:67:17: error: expected ';' before 'while'
+   67 |         printf()
+      |                 ^
+      |                 ;
+   68 |         while(HAL_GPIO_ReadPin(B1_GPIO_Port, B1_Pin));
+      |         ~~~~~    
+../Core/Src/main.c: In function 'ProgramStart':
+../Core/Src/main.c:72:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   72 |         printf("\033[2J\033[Y;XH");     //ESC = 033, y =0, x =0?úÑÏπ?,
+      |         ^~~~~~
+../Core/Src/main.c:72:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:119:11: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  119 |           printf("UART Test ...%6.2f \r\n", a);
+      |           ^~~~~~
+../Core/Src/main.c:119:11: note: include '<stdio.h>' or provide a declaration of 'printf'
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j24 all" terminated with exit code 2. Build might be incomplete.
+16:12:23 **** Incremental Build of configuration Debug for project TEST003_UART ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function '__io_putchar':
+../Core/Src/main.c:62:36: warning: passing argument 2 of 'HAL_UART_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+   62 |         HAL_UART_Transmit(&huart2, &ch, 1, 10); //{type, buffer, Î≥¥ÎÇº?ç∞?ù¥?Ñ∞ byte ?àò,}
+      |                                    ^~~
+      |                                    |
+      |                                    int *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'int *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'ProgramStart':
+../Core/Src/main.c:72:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   72 |         printf("\033[2J\033[Y;XH");     //ESC = 033, y =0, x =0?úÑÏπ?,
+      |         ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:72:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   72 |         printf("\033[2J\033[Y;XH");     //ESC = 033, y =0, x =0?úÑÏπ?,
+      |         ^~~~~~
+../Core/Src/main.c:72:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:119:11: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  119 |           printf("UART Test ...%6.2f \r\n", a);
+      |           ^~~~~~
+../Core/Src/main.c:119:11: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "TEST003_UART.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\TEST003\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TEST003_UART.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TEST003_UART.elf
+ 
+arm-none-eabi-size  TEST003_UART.elf 
+arm-none-eabi-objdump -h -S TEST003_UART.elf  > "TEST003_UART.list"
+   text	   data	    bss	    dec	    hex	filename
+  31520	    476	   1980	  33976	   84b8	TEST003_UART.elf
+Finished building: default.size.stdout
+ 
+Finished building: TEST003_UART.list
+ 
+16:24:05 **** Incremental Build of configuration Debug for project TEST003_UART ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "C:/Users/user/source/repos/STM32/myLib/myLib.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/myLib.d" -MT"Core/Src/myLib.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/myLib.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f4xx.d" -MT"Core/Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f4xx.o"
+C:/Users/user/source/repos/STM32/myLib/myLib.c: In function '__io_putchar':
+C:/Users/user/source/repos/STM32/myLib/myLib.c:9:4: warning: implicit declaration of function 'HAL_UART_Transmit' [-Wimplicit-function-declaration]
+    9 |    HAL_UART_Transmit(&huart2, &ch, 1, 10); // size(byte), timeout(ms)
+      |    ^~~~~~~~~~~~~~~~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c:9:23: error: 'huart2' undeclared (first use in this function)
+    9 |    HAL_UART_Transmit(&huart2, &ch, 1, 10); // size(byte), timeout(ms)
+      |                       ^~~~~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c:9:23: note: each undeclared identifier is reported only once for each function it appears in
+C:/Users/user/source/repos/STM32/myLib/myLib.c: In function 'StandBy':
+C:/Users/user/source/repos/STM32/myLib/myLib.c:13:10: warning: implicit declaration of function 'HAL_GPIO_ReadPin' [-Wimplicit-function-declaration]
+   13 |    while(HAL_GPIO_ReadPin(B1_GPIO_Port, B1_Pin)) {}
+      |          ^~~~~~~~~~~~~~~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c:13:27: error: 'B1_GPIO_Port' undeclared (first use in this function)
+   13 |    while(HAL_GPIO_ReadPin(B1_GPIO_Port, B1_Pin)) {}
+      |                           ^~~~~~~~~~~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c:13:41: error: 'B1_Pin' undeclared (first use in this function)
+   13 |    while(HAL_GPIO_ReadPin(B1_GPIO_Port, B1_Pin)) {}
+      |                                         ^~~~~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c: In function 'ProgramStart':
+C:/Users/user/source/repos/STM32/myLib/myLib.c:16:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   16 |    printf("\033[2J\033[0;0H");
+      |    ^~~~~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | /*
+C:/Users/user/source/repos/STM32/myLib/myLib.c:16:4: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   16 |    printf("\033[2J\033[0;0H");
+      |    ^~~~~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c:16:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+make: *** [Core/Src/subdir.mk:39: Core/Src/myLib.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:97:3: warning: implicit declaration of function 'ProgramStart' [-Wimplicit-function-declaration]
+   97 |   ProgramStart("UART");
+      |   ^~~~~~~~~~~~
+../Core/Src/main.c:102:11: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  102 |           printf("UART Test ...%6.2f \r\n", a);
+      |           ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:102:11: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  102 |           printf("UART Test ...%6.2f \r\n", a);
+      |           ^~~~~~
+../Core/Src/main.c:102:11: note: include '<stdio.h>' or provide a declaration of 'printf'
+"make -j24 all" terminated with exit code 2. Build might be incomplete.
+16:25:15 **** Incremental Build of configuration Debug for project TEST003_UART ****
+make -j24 all 
+arm-none-eabi-gcc "C:/Users/user/source/repos/STM32/myLib/myLib.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/myLib.d" -MT"Core/Src/myLib.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/myLib.o"
+C:/Users/user/source/repos/STM32/myLib/myLib.c: In function '__io_putchar':
+C:/Users/user/source/repos/STM32/myLib/myLib.c:9:4: warning: implicit declaration of function 'HAL_UART_Transmit' [-Wimplicit-function-declaration]
+    9 |    HAL_UART_Transmit(&huart2, &ch, 1, 10); // size(byte), timeout(ms)
+      |    ^~~~~~~~~~~~~~~~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c:9:23: error: 'huart2' undeclared (first use in this function)
+    9 |    HAL_UART_Transmit(&huart2, &ch, 1, 10); // size(byte), timeout(ms)
+      |                       ^~~~~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c:9:23: note: each undeclared identifier is reported only once for each function it appears in
+C:/Users/user/source/repos/STM32/myLib/myLib.c: In function 'StandBy':
+C:/Users/user/source/repos/STM32/myLib/myLib.c:13:10: warning: implicit declaration of function 'HAL_GPIO_ReadPin' [-Wimplicit-function-declaration]
+   13 |    while(HAL_GPIO_ReadPin(B1_GPIO_Port, B1_Pin)) {}
+      |          ^~~~~~~~~~~~~~~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c:13:27: error: 'B1_GPIO_Port' undeclared (first use in this function)
+   13 |    while(HAL_GPIO_ReadPin(B1_GPIO_Port, B1_Pin)) {}
+      |                           ^~~~~~~~~~~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c:13:41: error: 'B1_Pin' undeclared (first use in this function)
+   13 |    while(HAL_GPIO_ReadPin(B1_GPIO_Port, B1_Pin)) {}
+      |                                         ^~~~~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c: In function 'ProgramStart':
+C:/Users/user/source/repos/STM32/myLib/myLib.c:16:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   16 |    printf("\033[2J\033[0;0H");
+      |    ^~~~~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | /*
+C:/Users/user/source/repos/STM32/myLib/myLib.c:16:4: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   16 |    printf("\033[2J\033[0;0H");
+      |    ^~~~~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c:16:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+make: *** [Core/Src/subdir.mk:39: Core/Src/myLib.o] Error 1
+"make -j24 all" terminated with exit code 2. Build might be incomplete.
+16:29:53 **** Incremental Build of configuration Debug for project TEST003_UART ****
+make -j24 all 
+arm-none-eabi-gcc "C:/Users/user/source/repos/STM32/myLib/myLib.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/myLib.d" -MT"Core/Src/myLib.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/myLib.o"
+C:/Users/user/source/repos/STM32/myLib/myLib.c: In function '__io_putchar':
+C:/Users/user/source/repos/STM32/myLib/myLib.c:10:4: warning: implicit declaration of function 'HAL_UART_Transmit' [-Wimplicit-function-declaration]
+   10 |    HAL_UART_Transmit(&huart2, &ch, 1, 10); // size(byte), timeout(ms)
+      |    ^~~~~~~~~~~~~~~~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c:10:23: error: 'huart2' undeclared (first use in this function)
+   10 |    HAL_UART_Transmit(&huart2, &ch, 1, 10); // size(byte), timeout(ms)
+      |                       ^~~~~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c:10:23: note: each undeclared identifier is reported only once for each function it appears in
+C:/Users/user/source/repos/STM32/myLib/myLib.c: In function 'StandBy':
+C:/Users/user/source/repos/STM32/myLib/myLib.c:15:10: warning: implicit declaration of function 'HAL_GPIO_ReadPin' [-Wimplicit-function-declaration]
+   15 |    while(HAL_GPIO_ReadPin(B1_GPIO_Port, B1_Pin)) {}
+      |          ^~~~~~~~~~~~~~~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c:15:27: error: 'B1_GPIO_Port' undeclared (first use in this function)
+   15 |    while(HAL_GPIO_ReadPin(B1_GPIO_Port, B1_Pin)) {}
+      |                           ^~~~~~~~~~~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c:15:41: error: 'B1_Pin' undeclared (first use in this function)
+   15 |    while(HAL_GPIO_ReadPin(B1_GPIO_Port, B1_Pin)) {}
+      |                                         ^~~~~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c: In function 'ProgramStart':
+C:/Users/user/source/repos/STM32/myLib/myLib.c:19:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   19 |    printf("\033[2J\033[0;0H");
+      |    ^~~~~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | /*
+C:/Users/user/source/repos/STM32/myLib/myLib.c:19:4: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   19 |    printf("\033[2J\033[0;0H");
+      |    ^~~~~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c:19:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+make: *** [Core/Src/subdir.mk:39: Core/Src/myLib.o] Error 1
+"make -j24 all" terminated with exit code 2. Build might be incomplete.
+16:33:07 **** Incremental Build of configuration Debug for project TEST003_UART ****
+make -j24 all 
+arm-none-eabi-gcc "C:/Users/user/source/repos/STM32/myLib/myLib.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/myLib.d" -MT"Core/Src/myLib.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/myLib.o"
+C:/Users/user/source/repos/STM32/myLib/myLib.c: In function '__io_putchar':
+C:/Users/user/source/repos/STM32/myLib/myLib.c:14:31: warning: passing argument 2 of 'HAL_UART_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+   14 |    HAL_UART_Transmit(&huart2, &ch, 1, 10); // size(byte), timeout(ms)
+      |                               ^~~
+      |                               |
+      |                               int *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from C:/Users/user/source/repos/STM32/myLib/myLib.c:8:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'int *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c: In function 'ProgramStart':
+C:/Users/user/source/repos/STM32/myLib/myLib.c:23:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   23 |    printf("\033[2J\033[0;0H");
+      |    ^~~~~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c:9:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    8 | #include "main.h"
+  +++ |+#include <stdio.h>
+    9 | 
+C:/Users/user/source/repos/STM32/myLib/myLib.c:23:4: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   23 |    printf("\033[2J\033[0;0H");
+      |    ^~~~~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c:23:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "TEST003_UART.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\TEST003\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TEST003_UART.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TEST003_UART.elf
+ 
+arm-none-eabi-size  TEST003_UART.elf 
+arm-none-eabi-objdump -h -S TEST003_UART.elf  > "TEST003_UART.list"
+   text	   data	    bss	    dec	    hex	filename
+  31520	    476	   1980	  33976	   84b8	TEST003_UART.elf
+Finished building: default.size.stdout
+ 
+Finished building: TEST003_UART.list
+ 
+16:34:26 **** Incremental Build of configuration Debug for project TEST003_UART ****
+make -j24 all 
+arm-none-eabi-gcc "C:/Users/user/source/repos/STM32/myLib/myLib.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/myLib.d" -MT"Core/Src/myLib.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/myLib.o"
+C:/Users/user/source/repos/STM32/myLib/myLib.c: In function '__io_putchar':
+C:/Users/user/source/repos/STM32/myLib/myLib.c:14:31: warning: passing argument 2 of 'HAL_UART_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+   14 |    HAL_UART_Transmit(&huart2, &ch, 1, 10); // size(byte), timeout(ms)
+      |                               ^~~
+      |                               |
+      |                               int *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from C:/Users/user/source/repos/STM32/myLib/myLib.c:8:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'int *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c: In function 'ProgramStart':
+C:/Users/user/source/repos/STM32/myLib/myLib.c:23:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   23 |    printf("\033[2J\033[0;0H");
+      |    ^~~~~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c:9:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    8 | #include "main.h"
+  +++ |+#include <stdio.h>
+    9 | 
+C:/Users/user/source/repos/STM32/myLib/myLib.c:23:4: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   23 |    printf("\033[2J\033[0;0H");
+      |    ^~~~~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c:23:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "TEST003_UART.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\TEST003\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TEST003_UART.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TEST003_UART.elf
+ 
+arm-none-eabi-size  TEST003_UART.elf 
+arm-none-eabi-objdump -h -S TEST003_UART.elf  > "TEST003_UART.list"
+   text	   data	    bss	    dec	    hex	filename
+  31520	    476	   1980	  33976	   84b8	TEST003_UART.elf
+Finished building: default.size.stdout
+ 
+Finished building: TEST003_UART.list
+ 
+16:34:33 **** Incremental Build of configuration Debug for project TEST003_UART ****
+make -j24 all 
+arm-none-eabi-size  TEST003_UART.elf 
+   text	   data	    bss	    dec	    hex	filename
+  31520	    476	   1980	  33976	   84b8	TEST003_UART.elf
+Finished building: default.size.stdout
+ 
+16:46:56 **** Incremental Build of configuration Debug for project TEST003_UART ****
+make -j24 all 
+arm-none-eabi-gcc "C:/Users/user/source/repos/STM32/myLib/myLib.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/myLib.d" -MT"Core/Src/myLib.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/myLib.o"
+C:/Users/user/source/repos/STM32/myLib/myLib.c: In function '__io_putchar':
+C:/Users/user/source/repos/STM32/myLib/myLib.c:14:31: warning: passing argument 2 of 'HAL_UART_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+   14 |    HAL_UART_Transmit(&huart2, &ch, 1, 10); // size(byte), timeout(ms)
+      |                               ^~~
+      |                               |
+      |                               int *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from C:/Users/user/source/repos/STM32/myLib/myLib.c:8:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'int *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c: In function 'ProgramStart':
+C:/Users/user/source/repos/STM32/myLib/myLib.c:24:4: warning: implicit declaration of function 'cls' [-Wimplicit-function-declaration]
+   24 |    cls();
+      |    ^~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c:25:4: warning: implicit declaration of function 'Cursor' [-Wimplicit-function-declaration]
+   25 |    Cursor(0,0);
+      |    ^~~~~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c:26:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   26 |    printf("Program Name - %s\r\n", str);
+      |    ^~~~~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c:9:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    8 | #include "main.h"
+  +++ |+#include <stdio.h>
+    9 | 
+C:/Users/user/source/repos/STM32/myLib/myLib.c:26:4: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   26 |    printf("Program Name - %s\r\n", str);
+      |    ^~~~~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c:26:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+C:/Users/user/source/repos/STM32/myLib/myLib.c: At top level:
+C:/Users/user/source/repos/STM32/myLib/myLib.c:30:6: warning: conflicting types for 'cls'; have 'void()'
+   30 | void cls()
+      |      ^~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c:24:4: note: previous implicit declaration of 'cls' with type 'void()'
+   24 |    cls();
+      |    ^~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c: In function 'cls':
+C:/Users/user/source/repos/STM32/myLib/myLib.c:32:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   32 |         printf("\033[2J");
+      |         ^~~~~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c:32:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+C:/Users/user/source/repos/STM32/myLib/myLib.c: At top level:
+C:/Users/user/source/repos/STM32/myLib/myLib.c:34:6: warning: conflicting types for 'Cursor'; have 'void(int,  int)'
+   34 | void Cursor(int x, int y)
+      |      ^~~~~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c:25:4: note: previous implicit declaration of 'Cursor' with type 'void(int,  int)'
+   25 |    Cursor(0,0);
+      |    ^~~~~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c: In function 'Cursor':
+C:/Users/user/source/repos/STM32/myLib/myLib.c:37:9: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+   37 |         sprintf(buf, "\033[%d;%dH", y, x);      //sprintf( buffer, "%d",a,b) console?ù¥ ?ïÑ?ãà?ùº Î¨∏Ïûê?ó¥ bufÎ°? Ï∂úÎ†•
+      |         ^~~~~~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c:37:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+C:/Users/user/source/repos/STM32/myLib/myLib.c:37:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+C:/Users/user/source/repos/STM32/myLib/myLib.c:37:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+C:/Users/user/source/repos/STM32/myLib/myLib.c:38:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   38 |         printf("%s",buf);       //Î∞©Î≤ï 2 puts(buf) putsÎ¨∏Ïûê?ó¥ Ï∂úÎ†• ?ï®?àò
+      |         ^~~~~~
+C:/Users/user/source/repos/STM32/myLib/myLib.c:38:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "TEST003_UART.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\TEST003\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TEST003_UART.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TEST003_UART.elf
+ 
+arm-none-eabi-size  TEST003_UART.elf 
+arm-none-eabi-objdump -h -S TEST003_UART.elf  > "TEST003_UART.list"
+   text	   data	    bss	    dec	    hex	filename
+  31600	    476	   1980	  34056	   8508	TEST003_UART.elf
+Finished building: default.size.stdout
+ 
+Finished building: TEST003_UART.list
+ 
+16:47:14 **** Incremental Build of configuration Debug for project TEST003_UART ****
+make -j24 all 
+arm-none-eabi-size  TEST003_UART.elf 
+   text	   data	    bss	    dec	    hex	filename
+  31600	    476	   1980	  34056	   8508	TEST003_UART.elf
+Finished building: default.size.stdout
+ 

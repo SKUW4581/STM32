@@ -65,3 +65,27 @@ java.io.FileNotFoundException: C:\Users\user\source\repos\STM32\Text001\Debug\Te
 	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1038)
 	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1241)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2024-11-15 09:14:37.954 -----------------------------------------------
+eclipse.buildId=Version 1.14.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-11-15 09:14:53.211
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-11-15 09:14:53.211
+!MESSAGE Log4j2 initialized with config file C:\Users\user\source\repos\STM32\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-11-15 09:14:56.650
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-11-15 09:31:33.935
+!MESSAGE Indexed 'TEXT002-Timer' (22 sources, 82 headers) in 1.39 sec: 4,789 declarations; 22,862 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0072%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-11-15 14:26:44.985
+!MESSAGE Indexed 'TEST003' (22 sources, 82 headers) in 0.681 sec: 4,789 declarations; 22,862 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0072%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-11-15 14:28:58.736
+!MESSAGE Indexed 'TEST003_UART' (22 sources, 82 headers) in 0.577 sec: 4,789 declarations; 22,862 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0072%)
