@@ -1,7 +1,9 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Text001 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:TEXT002-Timer Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:TEST003_UART Debug
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Text001 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:TEXT002-Timer Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:TEST003_UART Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:TEST_004_ABC Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:TEST_004_ADC_INTR Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:TEST004_ADC_DMA Debug
 eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:TEST003_UART\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:TEST003_UART\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Text001\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Text001\ Debug/activeLaunchTarget=null\:---

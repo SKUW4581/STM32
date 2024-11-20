@@ -1,0 +1,32 @@
+15:50:58 **** Incremental Build of configuration Debug for project TEST_004_ADC_INTR ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:119:3: warning: implicit declaration of function 'ProgramStart' [-Wimplicit-function-declaration]
+  119 |   ProgramStart("ADC Interrupt");
+      |   ^~~~~~~~~~~~
+../Core/Src/main.c:132:11: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  132 |           printf("Current ADC Value : (%d, %d)\r\n", val1, val2);
+      |           ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:132:11: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  132 |           printf("Current ADC Value : (%d, %d)\r\n", val1, val2);
+      |           ^~~~~~
+../Core/Src/main.c:132:11: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "TEST_004_ADC_INTR.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\TEST_004_ADC_INTR\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TEST_004_ADC_INTR.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TEST_004_ADC_INTR.elf
+ 
+arm-none-eabi-size  TEST_004_ADC_INTR.elf 
+arm-none-eabi-objdump -h -S TEST_004_ADC_INTR.elf  > "TEST_004_ADC_INTR.list"
+   text	   data	    bss	    dec	    hex	filename
+  19288	    112	   2136	  21536	   5420	TEST_004_ADC_INTR.elf
+Finished building: default.size.stdout
+ 
+Finished building: TEST_004_ADC_INTR.list
+ 
+
+15:50:58 Build Finished. 0 errors, 3 warnings. (took 612ms)
+
