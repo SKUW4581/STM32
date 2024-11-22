@@ -96,6 +96,12 @@ int main(void)
   ProgramStart("LCD_1602");
   i2c_init(&hi2c1);
   i2c_scan();
+
+  LCD_init();
+  HAL_Delay(10);
+  LCD_print("HELLO");
+  LCD_printEx("BYUNG MIN",1);
+
   /* USER CODE END 2 */
 
   /* Infinite loop */

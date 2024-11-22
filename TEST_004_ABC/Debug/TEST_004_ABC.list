@@ -29,23 +29,23 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY
  12 .comment      00000043  00000000  00000000  00020098  2**0
                   CONTENTS, READONLY
- 13 .debug_info   00009436  00000000  00000000  000200db  2**0
+ 13 .debug_info   000096e0  00000000  00000000  000200db  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 14 .debug_abbrev 000019f2  00000000  00000000  00029511  2**0
+ 14 .debug_abbrev 00001a05  00000000  00000000  000297bb  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 15 .debug_aranges 00000830  00000000  00000000  0002af08  2**3
+ 15 .debug_aranges 00000830  00000000  00000000  0002b1c0  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 16 .debug_rnglists 00000634  00000000  00000000  0002b738  2**0
+ 16 .debug_rnglists 00000634  00000000  00000000  0002b9f0  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_macro  00017658  00000000  00000000  0002bd6c  2**0
+ 17 .debug_macro  00017921  00000000  00000000  0002c024  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_line   0000a3b9  00000000  00000000  000433c4  2**0
+ 18 .debug_line   0000a45d  00000000  00000000  00043945  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .debug_str    0009330d  00000000  00000000  0004d77d  2**0
+ 19 .debug_str    00094f50  00000000  00000000  0004dda2  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .debug_frame  000029a8  00000000  00000000  000e0a8c  2**2
+ 20 .debug_frame  000029a8  00000000  00000000  000e2cf4  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_line_str 0000005c  00000000  00000000  000e3434  2**0
+ 21 .debug_line_str 0000005c  00000000  00000000  000e569c  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -1047,9 +1047,9 @@ __STATIC_FORCEINLINE void __disable_irq(void)
 	...
 
 08000924 <__io_putchar>:
-#include "main.h"
 
 extern UART_HandleTypeDef huart2;	// 외부
+I2C_HandleTypeDef *hi2c = NULL;
 
 int __io_putchar(int ch)
 {
@@ -1153,7 +1153,7 @@ void Cursor(int x, int y)
  80009c4:	683a      	ldr	r2, [r7, #0]
  80009c6:	4906      	ldr	r1, [pc, #24]	; (80009e0 <Cursor+0x2c>)
  80009c8:	f002 fa9a 	bl	8002f00 <siprintf>
-	printf("%s",buf);	//방법 2 puts(buf) puts문자열 출력 함수
+	printf("%s",buf);					//방법 2 puts(buf) puts문자열 출력 함수
  80009cc:	f107 030c 	add.w	r3, r7, #12
  80009d0:	4619      	mov	r1, r3
  80009d2:	4804      	ldr	r0, [pc, #16]	; (80009e4 <Cursor+0x30>)

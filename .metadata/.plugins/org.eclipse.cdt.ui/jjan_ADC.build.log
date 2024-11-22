@@ -1,0 +1,44 @@
+21:07:01 **** Incremental Build of configuration Debug for project jjan_ADC ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:126:3: warning: implicit declaration of function 'ProgramStart' [-Wimplicit-function-declaration]
+  126 |   ProgramStart(" DMA");
+      |   ^~~~~~~~~~~~
+../Core/Src/main.c:128:29: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  128 |   HAL_ADC_Start_DMA(&hadc1, val, 2);
+      |                             ^~~
+      |                             |
+      |                             short unsigned int *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'short unsigned int *'
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+../Core/Src/main.c:148:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  148 |         printf("%d %d\r\n",val[1],val[2]);
+      |         ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:148:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  148 |         printf("%d %d\r\n",val[1],val[2]);
+      |         ^~~~~~
+../Core/Src/main.c:148:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "jjan_ADC.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\jjan_ADC\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="jjan_ADC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: jjan_ADC.elf
+ 
+arm-none-eabi-size  jjan_ADC.elf 
+arm-none-eabi-objdump -h -S jjan_ADC.elf  > "jjan_ADC.list"
+   text	   data	    bss	    dec	    hex	filename
+  20292	    112	   2224	  22628	   5864	jjan_ADC.elf
+Finished building: default.size.stdout
+ 
+Finished building: jjan_ADC.list
+ 
+
+21:07:02 Build Finished. 0 errors, 4 warnings. (took 601ms)
+

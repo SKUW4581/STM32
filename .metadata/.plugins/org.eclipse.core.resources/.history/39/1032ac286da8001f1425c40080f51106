@@ -1,0 +1,68 @@
+/*
+ * LCD_1602.c
+ *
+ *  Created on: Nov 21, 2024
+ *      Author: user
+ *	Function : 1602 LCD device control;
+ */
+
+//RS = 0 command, RS = 1 data
+#include "main.h"
+//#include "C:\Users\user\STM32Cube\Repository\STM32Cube_FW_F4_V1.28.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h"
+
+#define I2C_ADDR 0x4E	//0x27 << 1 same
+
+
+I2C_HandleTypeDef *hi2c = NULL;
+
+int i2c_init(I2C_HandleTypeDef *p)
+{
+	hi2c = p;
+}
+
+int i2c_scan()
+{
+	if(hi2c == NULL) return;
+	for(int addr = 0; addr < 128; addr++)
+	{
+		if(HAL_I2C_IsDeviceReady(hi2c, addr, 1, 10) == HAL_OK)
+		{
+			printf("  %02x ", addr);
+		}
+		else
+		{
+			printf("  ,  ");
+		}
+		if((addr+1) % 16 == 0) printf("\r\n");
+	}
+}
+
+void LCD_command(char cmd)	//command bit : abcd efgh
+{
+	char n1, n2, dd[4];
+	n1 = cmd & 0xf0;		//mask use upper nibble, abcd 0000
+	n2 = (cmd & 0x0f) << 4;		//mask use cmd << 4 same , lower nibble to upper, efgh 0000
+	dd[0] = n1 | 0x0c;
+	dd[1] = n1 | 0x08;
+	dd[2] = n2 | 0x0c;
+	dd[3] = n2 | 0x08;
+	HAL_I2C_Master_Transmit(hi2c, I2C_ADDR, dd, 4, 10);
+}
+
+void LCD_init()
+{
+
+}
+
+void LCD_data(char ch)
+{
+
+}
+
+void LCD_init()
+{
+	LCD_command(0x01);	//screen clear  0000_0001
+	LCD_command(0x02);	//cursor return 0000_001*
+	LCD_command(0x06);
+	LCD_command(0x0f);
+}
