@@ -5,4 +5,5 @@ C:/Users/user/source/repos/STM32/myLib/LCD_1602.c:53:6:LCD_data	1
 C:/Users/user/source/repos/STM32/myLib/LCD_1602.c:67:6:LCD_init	1
 C:/Users/user/source/repos/STM32/myLib/LCD_1602.c:75:6:LCD_print	2
 C:/Users/user/source/repos/STM32/myLib/LCD_1602.c:80:6:LCD_printEx	3
-C:/Users/user/source/repos/STM32/myLib/LCD_1602.c:86:6:LCD_test	1
+C:/Users/user/source/repos/STM32/myLib/LCD_1602.c:88:6:LCD_printEx2	3
+C:/Users/user/source/repos/STM32/myLib/LCD_1602.c:105:6:LCD_test	1

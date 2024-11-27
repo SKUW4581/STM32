@@ -21,7 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include <stdio.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -96,16 +96,24 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   ProgramStart("UART");
   int count = 0;
+  int val;
   while (1)
   {
-	  double a = count++ /3.14;
-	  printf("UART Test ...%6.2f \r\n", a);
-	  HAL_Delay(500);
-    /* USER CODE END WHILE */
+	 //printf("UART Test%d ..........\r\n", count); // 밑에 단에서 결국 __io_putchar()함수 호출 ==> UART2로 출력이 됨
 
-    /* USER CODE BEGIN 3 */
+	  /*double a = count++ / 3.14;
+	   printf("UART Test%6.2f ..........\r\n", a); // Project -> Properties -> C/C++ Build -> Settings -> Tool Settings -> MCU Settings -> Use float with printf*/
+	   printf("Input test number : ");
+	   setvbuf(stdin, NULL, _IONBF, 0);	//관용적으로 쓰이는 버퍼
+	   scanf("%d", &val);
+	   printf("Input number : %d\r\n\n", val);
+	   HAL_Delay(500);
+
+	   /* USER CODE END WHILE */
+
+	   /* USER CODE BEGIN 3 */
+
   }
-  /* USER CODE END 3 */
 }
 
 /**

@@ -6,9 +6,20 @@
  */
 // int __io_getchar(void) {}
 #include "main.h"
+#include <stdio.h>
+
 //include "C:\Users\user\STM32Cube\Repository\STM32Cube_FW_F4_V1.28.1\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h"
 
 extern UART_HandleTypeDef huart2;	// 외부
+
+int __io_getchar(void)
+{
+   char ch;
+   while(HAL_UART_Receive(&huart2, &ch, 1, 10) != HAL_OK);
+   HAL_UART_Transmit(&huart2, &ch, 1, 10);
+   if(ch == '\r') HAL_UART_Transmit(&huart2, "\n", 1, 10);
+   return ch;
+}
 
 int __io_putchar(int ch)
 {
@@ -34,6 +45,8 @@ void ProgramStart(char* str)
    printf("Program Name - %s\r\n", str);
    printf("Press Blue-button(B1) to Start...\r\n");
    StandBy();
+   setvbuf(stdin, NULL, _IONBF, 0);
+
 }
 
 void Cursor(int x, int y)

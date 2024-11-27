@@ -83,6 +83,25 @@ void LCD_printEx(char *str, int in)
 	if(in == 1) LCD_command(0xc0);
 	LCD_print(str);
 }
+int ln2 = 0;		// current line
+char sbuf[20];		// 2nd line string;
+void LCD_printEx2(char *str)
+{
+	if(ln2 == 0)
+		{
+			LCD_command(0x80);
+			ln2 ++;
+		}
+	else if(ln2 == 1)
+		{
+			LCD_command(0x80);
+			LCD_print(sbuf);
+
+			LCD_command(0xc0);
+			strcpy(sbuf, str);
+		}
+			LCD_print(str);
+}
 void LCD_test()
 {
 	LCD_data('H');

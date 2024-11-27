@@ -1,0 +1,60 @@
+16:31:49 **** Incremental Build of configuration Debug for project TEST_003_UART_DMA ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'GetBuffer':
+../Core/Src/main.c:71:25: warning: implicit declaration of function 'memcpy' [-Wimplicit-function-declaration]
+   71 |                         memcpy(bb, Buf + head, tail - head);    //out, start point, finish point)
+      |                         ^~~~~~
+../Core/Src/main.c:21:1: note: include '<string.h>' or provide a declaration of 'memcpy'
+   20 | #include "main.h"
+  +++ |+#include <string.h>
+   21 | 
+../Core/Src/main.c:71:25: warning: incompatible implicit declaration of built-in function 'memcpy' [-Wbuiltin-declaration-mismatch]
+   71 |                         memcpy(bb, Buf + head, tail - head);    //out, start point, finish point)
+      |                         ^~~~~~
+../Core/Src/main.c:71:25: note: include '<string.h>' or provide a declaration of 'memcpy'
+../Core/Src/main.c:76:25: warning: incompatible implicit declaration of built-in function 'memcpy' [-Wbuiltin-declaration-mismatch]
+   76 |                         memcpy(bb, Buf + head, MAX_BUF-head);
+      |                         ^~~~~~
+../Core/Src/main.c:76:25: note: include '<string.h>' or provide a declaration of 'memcpy'
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:118:3: warning: implicit declaration of function 'ProgramStart' [-Wimplicit-function-declaration]
+  118 |   ProgramStart("UART_DMA");
+      |   ^~~~~~~~~~~~
+../Core/Src/main.c:119:33: warning: pointer targets in passing argument 2 of 'HAL_UART_Receive_DMA' differ in signedness [-Wpointer-sign]
+  119 |   HAL_UART_Receive_DMA(&huart2, Buf, MAX_BUF);
+      |                                 ^~~
+      |                                 |
+      |                                 char *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:750:76: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+  750 | HAL_StatusTypeDef HAL_UART_Receive_DMA(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size);
+      |                                                                   ~~~~~~~~~^~~~~
+../Core/Src/main.c:129:19: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  129 |                   printf("BUF : %s\r\n", bb);
+      |                   ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:129:19: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  129 |                   printf("BUF : %s\r\n", bb);
+      |                   ^~~~~~
+../Core/Src/main.c:129:19: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "TEST_003_UART_DMA.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\TEST_003_UART_DMA\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TEST_003_UART_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TEST_003_UART_DMA.elf
+ 
+arm-none-eabi-size  TEST_003_UART_DMA.elf 
+arm-none-eabi-objdump -h -S TEST_003_UART_DMA.elf  > "TEST_003_UART_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+  18132	    112	   2184	  20428	   4fcc	TEST_003_UART_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: TEST_003_UART_DMA.list
+ 
+
+16:31:50 Build Finished. 0 errors, 7 warnings. (took 535ms)
+

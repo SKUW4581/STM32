@@ -1210,3 +1210,42 @@ java.lang.Exception: File not found: C:\Users\user\source\repos\STM32\TEST_004_A
 
 !ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2024-11-22 15:39:43.979
 !MESSAGE Won't launch debug session since we failed to locate the binary.
+!SESSION 2024-11-27 10:52:32.588 -----------------------------------------------
+eclipse.buildId=Version 1.14.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-11-27 10:52:37.763
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-11-27 10:52:37.763
+!MESSAGE Log4j2 initialized with config file C:\Users\user\source\repos\STM32\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-11-27 10:52:42.932
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2024-11-27 11:17:41.945
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-11-27 15:07:53.311
+!MESSAGE Indexed 'TEST_003_UART_DMA' (22 sources, 82 headers) in 1.21 sec: 4,789 declarations; 22,862 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0072%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2024-11-27 15:18:36.703
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2024-11-27 15:18:48.935
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2024-11-27 15:21:13.147
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2024-11-27 15:22:12.879
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2024-11-27 15:22:15.653
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2024-11-27 15:25:22.412
+!MESSAGE Won't launch debug session since we failed to locate the binary.
