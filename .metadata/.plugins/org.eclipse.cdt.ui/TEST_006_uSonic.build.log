@@ -1,0 +1,48 @@
+16:40:46 **** Incremental Build of configuration Debug for project TEST_006_uSonic ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'Distance':
+../Core/Src/main.c:85:9: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+   85 |         while((HAL_GPIO_ReadPin(Echo_GPIO_Port,Echo_Pin) == 0));
+      |         ^~~~~
+../Core/Src/main.c:86:9: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+   86 |         {
+      |         ^
+../Core/Src/main.c:90:9: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+   90 |         while((HAL_GPIO_ReadPin(Echo_GPIO_Port,Echo_Pin) == 1));
+      |         ^~~~~
+../Core/Src/main.c:91:9: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+   91 |         {
+      |         ^
+../Core/Src/main.c:79:13: warning: unused variable 't0' [-Wunused-variable]
+   79 |         int t0 = 0, t1, t2;
+      |             ^~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:132:3: warning: implicit declaration of function 'ProgramStart' [-Wimplicit-function-declaration]
+  132 |   ProgramStart("Ultra Sonic SR=04(STF-05)");
+      |   ^~~~~~~~~~~~
+../Core/Src/main.c:143:11: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  143 |           printf("Distance : %f\r\n", dist);
+      |           ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:143:11: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  143 |           printf("Distance : %f\r\n", dist);
+      |           ^~~~~~
+../Core/Src/main.c:143:11: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "TEST_006_uSonic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\TEST_006_uSonic\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TEST_006_uSonic.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TEST_006_uSonic.elf
+ 
+arm-none-eabi-size  TEST_006_uSonic.elf 
+arm-none-eabi-objdump -h -S TEST_006_uSonic.elf  > "TEST_006_uSonic.list"
+   text	   data	    bss	    dec	    hex	filename
+  34440	    476	   2052	  36968	   9068	TEST_006_uSonic.elf
+Finished building: default.size.stdout
+ 
+Finished building: TEST_006_uSonic.list
+ 
+
+16:40:47 Build Finished. 0 errors, 6 warnings. (took 643ms)
+
