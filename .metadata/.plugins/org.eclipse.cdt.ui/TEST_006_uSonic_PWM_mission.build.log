@@ -1,0 +1,50 @@
+16:59:38 **** Incremental Build of configuration Debug for project TEST_006_uSonic_PWM_mission ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "C:/Users/user/source/repos/STM32/myLib/uSonic.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/uSonic.d" -MT"Core/Src/uSonic.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/uSonic.o"
+C:/Users/user/source/repos/STM32/myLib/uSonic.c: In function 'Trigger':
+C:/Users/user/source/repos/STM32/myLib/uSonic.c:15:35: error: 'Trig_GPIO_Port' undeclared (first use in this function); did you mean 'TCK_GPIO_Port'?
+   15 |                 HAL_GPIO_WritePin(Trig_GPIO_Port, Trig_Pin, 0);
+      |                                   ^~~~~~~~~~~~~~
+      |                                   TCK_GPIO_Port
+C:/Users/user/source/repos/STM32/myLib/uSonic.c:15:35: note: each undeclared identifier is reported only once for each function it appears in
+C:/Users/user/source/repos/STM32/myLib/uSonic.c:15:51: error: 'Trig_Pin' undeclared (first use in this function)
+   15 |                 HAL_GPIO_WritePin(Trig_GPIO_Port, Trig_Pin, 0);
+      |                                                   ^~~~~~~~
+C:/Users/user/source/repos/STM32/myLib/uSonic.c: In function 'Distance':
+C:/Users/user/source/repos/STM32/myLib/uSonic.c:30:9: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+   30 |         while((HAL_GPIO_ReadPin(Echo_GPIO_Port,Echo_Pin) == 0));
+      |         ^~~~~
+C:/Users/user/source/repos/STM32/myLib/uSonic.c:31:9: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+   31 |         {
+      |         ^
+C:/Users/user/source/repos/STM32/myLib/uSonic.c:35:9: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+   35 |         while((HAL_GPIO_ReadPin(Echo_GPIO_Port,Echo_Pin) == 1));
+      |         ^~~~~
+C:/Users/user/source/repos/STM32/myLib/uSonic.c:36:9: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+   36 |         {
+      |         ^
+C:/Users/user/source/repos/STM32/myLib/uSonic.c:24:13: warning: unused variable 't0' [-Wunused-variable]
+   24 |         int t0 = 0, t1, t2;
+      |             ^~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:115:3: warning: implicit declaration of function 'ProgramStart' [-Wimplicit-function-declaration]
+  115 |   ProgramStart("PWM_uSonic_START");
+      |   ^~~~~~~~~~~~
+../Core/Src/main.c:134:18: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  134 |                  printf("PWM_Distance : %f\r\n", dist);
+      |                  ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:134:18: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  134 |                  printf("PWM_Distance : %f\r\n", dist);
+      |                  ^~~~~~
+../Core/Src/main.c:134:18: note: include '<stdio.h>' or provide a declaration of 'printf'
+make: *** [Core/Src/subdir.mk:44: Core/Src/uSonic.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j24 all" terminated with exit code 2. Build might be incomplete.
+
+16:59:39 Build Failed. 4 errors, 6 warnings. (took 391ms)
+
